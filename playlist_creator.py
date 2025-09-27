@@ -6,7 +6,7 @@ urls = [
     "https://raw.githubusercontent.com/karams81/voddensrb/11a2db99c0aabbb641c29672f362b14f2c674c86/selcuk.m3u"
 ]
 
-output_file = "channel.m3u"
+output_file = "playlist.m3u"
 
 def fetch_m3u_content(url):
     try:
@@ -63,3 +63,4 @@ def merge_m3u_files(urls, output_file):
 
 if __name__ == "__main__":
     merge_m3u_files(urls, output_file)
+
