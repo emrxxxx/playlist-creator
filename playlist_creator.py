@@ -1,7 +1,7 @@
 import requests
 
 urls = [
-    "https://raw.githubusercontent.com/MehmetKaraGMX/Live/refs/heads/main/vizi.m3u",
+    "https://raw.githubusercontent.com/emrxxxx/Live/refs/heads/main/1.m3u",
     "https://raw.githubusercontent.com/karams81/voddensrb/11a2db99c0aabbb641c29672f362b14f2c674c86/trgoalas.m3u",
     "https://raw.githubusercontent.com/karams81/voddensrb/11a2db99c0aabbb641c29672f362b14f2c674c86/selcuk.m3u"
 ]
@@ -63,4 +63,5 @@ def merge_m3u_files(urls, output_file):
 
 if __name__ == "__main__":
     merge_m3u_files(urls, output_file)
+
 
