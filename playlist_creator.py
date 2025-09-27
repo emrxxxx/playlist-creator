@@ -1,4 +1,5 @@
 import requests
+import re
 
 urls = [
     "https://raw.githubusercontent.com/emrxxxx/Live/refs/heads/main/1.m3u",
@@ -26,6 +27,7 @@ def merge_m3u_files(urls, output_file):
         content = fetch_m3u_content(url)
         if not content:
             continue
+        is_sports_source = "trgoalas" in url or "selcuk" in url
         if not first_source:
             out.append("")
         first_source = False
@@ -39,6 +41,14 @@ def merge_m3u_files(urls, output_file):
             line = lines[j]
             s = line.strip()
             if s.startswith("#"):
+                if is_sports_source and s.startswith("#EXTINF"):
+                    line = re.sub(r'group-title="[^"]*"', 'group-title="Spor"', line)
+                    if 'group-title="' not in line:
+                        last_comma_pos = line.rfind(',')
+                        if last_comma_pos > line.find(':'):
+                            line = line[:last_comma_pos] + ',group-title="Spor"' + line[last_comma_pos:]
+                        else:
+                            line += ',group-title="Spor"'
                 current_meta.append(line)
                 j += 1
             elif s:
@@ -63,5 +73,3 @@ def merge_m3u_files(urls, output_file):
 
 if __name__ == "__main__":
     merge_m3u_files(urls, output_file)
-
-
