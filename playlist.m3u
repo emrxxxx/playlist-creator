@@ -104,7 +104,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e19
 #EXTINF:-1 tvg-id="KralPop.tr" tvg-name="KRAL POP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/kral-pop-tr.png" group-title="Müzik",NUMBER1 TURK
 https://dogus-live.daioncdn.net/kralpoptv/kralpoptv_720p.m3u8
 
-#EXTM3U
 #EXTINF:-1 tvg-id="BeinSports1.tr" tvg-name="Bein Sports 1 HD (VIP)" group-title="Spor",Bein Sports 1 HD (VIP)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://trgoals1411.xyz/
