@@ -48,9 +48,7 @@ http://cdn1-gurbet24.yayin.com.tr/gurbet24/ngrp:gurbet24/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
 https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="ASTV.tr" tvg-name="AS TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/as-tv-bursa-tr.png" group-title="Yerel Kanallar",AS TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
+https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8
 #EXTINF:-1 tvg-id="BiKANAL.tr" tvg-name="Bi KANAL" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bi-kanal-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="Spor",Bi KANAL
 http://online.karamehmet.workers.dev/?ID=https://www.ecanlitvizle.live/bi-kanal/
 # --- Sinema/Dizi ---
