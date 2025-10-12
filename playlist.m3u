@@ -48,6 +48,7 @@ https://edge.socialsmart.tv/linetv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="ASTV.tr" tvg-name="AS TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/as-tv-bursa-tr.png" group-title="Yerel Kanallar",AS TV
 https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8
 #EXTINF:-1 tvg-id="BiKANAL.tr" tvg-name="Bi KANAL" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bi-kanal-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="Spor",Bi KANAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.artidijitalmedya.com/artidijital_bikanal/bikanal/chunks.m3u8
 # --- Sinema/Dizi ---
 #EXTINF:-1 tvg-id="Sinema1001.tr" tvg-name="Sinema 1001" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-tv-tr.png" group-title="Sinema/Dizi",Sinema 1001
