@@ -44,13 +44,11 @@ https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8
 http://cdn1-gurbet24.yayin.com.tr/gurbet24/ngrp:gurbet24/playlist.m3u8
 # --- Yerel Kanallar ---
 #EXTINF:-1 tvg-id="LineTV.tr" tvg-name="Line TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/line-tv-bursa-tr.png" group-title="Yerel Kanallar",Line TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1351.xyz/
-https://edge1.socialsmart.tv/linetv/bant1/chunks.m3u8
+https://edge.socialsmart.tv/linetv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="ASTV.tr" tvg-name="AS TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/as-tv-bursa-tr.png" group-title="Yerel Kanallar",AS TV
 https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8
 #EXTINF:-1 tvg-id="BiKANAL.tr" tvg-name="Bi KANAL" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/bi-kanal-buyuk.png?rkt=DfS6Tgv6Hjr93k3" group-title="Spor",Bi KANAL
-http://online.karamehmet.workers.dev/?ID=https://www.ecanlitvizle.live/bi-kanal/
+https://live.artidijitalmedya.com/artidijital_bikanal/bikanal/chunks.m3u8
 # --- Sinema/Dizi ---
 #EXTINF:-1 tvg-id="Sinema1001.tr" tvg-name="Sinema 1001" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/sinema-tv-tr.png" group-title="Sinema/Dizi",Sinema 1001
 http://apx-me.com:8880/live:persian_share/Hs6guU9ziF/48906
