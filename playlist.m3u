@@ -2,6 +2,8 @@
 
 # --- Ulusal Kanallar ---
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal Kanallar",TRT 1
+#EXTVLCOPT:http-referrer=https://www.tabii.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://trt.daioncdn.net/trt-1/master.m3u8?app=web&ppid=69576a06dbb43368691d965ae316e6af
 #EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal Kanallar",ATV
 http://apx-me.com:8880/live:persian_share/Hs6guU9ziF/48846
